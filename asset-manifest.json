@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WEB-FLOW-Assessment/static/css/main.f5836273.css",
+    "main.js": "/WEB-FLOW-Assessment/static/js/main.1d49b13a.js",
+    "index.html": "/WEB-FLOW-Assessment/index.html",
+    "main.f5836273.css.map": "/WEB-FLOW-Assessment/static/css/main.f5836273.css.map",
+    "main.1d49b13a.js.map": "/WEB-FLOW-Assessment/static/js/main.1d49b13a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5836273.css",
+    "static/js/main.1d49b13a.js"
+  ]
+}
