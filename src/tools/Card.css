@@ -1,0 +1,34 @@
+.card{
+    padding: 25px;
+    width: 330px;
+    height: 380px;
+    background-color: rgba(243, 242, 242, 0.149);
+    position: relative;
+    color: white;
+    border: 1px solid rgb(53, 52, 52);
+    justify-self: center;
+    align-self: center;
+    text-align:left
+}
+.i{
+    margin-top: 36px;
+    
+}
+.title{
+    margin-top: 10px;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.num{
+
+    padding: 0;
+    margin: 0;
+    color: rgba(194, 194, 194, 0.878);
+    font-weight: bold;
+    position: absolute;
+    left: 305px;
+    top: -10px;
+    margin-top: -60px;
+    font-size: 6rem;
+}

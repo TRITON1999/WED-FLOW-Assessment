@@ -1,0 +1,142 @@
+.Header {
+    background-color: white;
+    display: flex;
+    color: rgb(79, 78, 78);
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    padding: 0 6em;
+}
+
+.as {
+    flex-grow: 4;
+}
+
+img {
+    width: 180px;
+    margin-right: 0px;
+}
+
+.con {
+    display: flex;
+    height: 80px;
+    flex-grow: 5;
+    gap: 19px;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.integrations {
+    text-align: center;
+}
+
+.con .dropdown button{
+    background: none !important;
+    color: #111 !important;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: none !important;
+    padding: 0;
+    pointer-events: none;
+}
+
+.solutions {
+    text-align: center;
+}
+
+.resources {
+    text-align: center;
+}
+
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butt {
+    flex-grow: 4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.b1 {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px 8px;
+    color: rgb(55, 54, 54);
+    background-color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.b1:hover {
+    color: white;
+    background-color: rgb(33, 33, 33);
+}
+
+.b2 {
+    background-color: rgb(33, 33, 33);
+    margin-left: 30px;
+    border-radius: 5px;
+    min-width: 100px;
+    border: 1px solid black;
+    padding: 10px 8px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.b2:hover {
+    color: rgb(28, 28, 28);
+    background-color: white;
+}
+.con .dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.con .dropdown-menu{
+    margin: -15px;
+    padding: 0;
+}
+.con .dropdown:hover .dropdown-menu, .con .dropdown-menu:hover{
+    display: block;
+}
+.grid1col{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-weight: 400 !important;
+}
+.grid2col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 400 !important;
+}
+.selected{
+    padding-left: 10px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.selected:hover{
+    background-color: rgb(180, 198, 255);
+}

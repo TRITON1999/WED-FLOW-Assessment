@@ -1,0 +1,48 @@
+.roles{
+    background-color: rgba(0, 0, 0, 0.905);
+    /* clip-path: polygon(0 0,100% 0,90% 100%,0 0); */
+    clip-path: polygon(0 5%,0 100%,100% 95%,100% 0);
+    color: white;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+.roles .d{
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.roles .rangeen{
+    font-size: 1rem;
+}
+.rgrid{
+    margin-top: 80px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rgrid .titles{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.rgrid .grids{
+    height: 500px;
+}
+.grids .content{
+    justify-self: center;
+    align-self: center;
+}
+.rgrid img{
+    align-self: center;
+    justify-self: center;
+    height: 300px;
+    width: 350px;
+}
+.chota{
+    margin-top: -10px;
+}
+.grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
